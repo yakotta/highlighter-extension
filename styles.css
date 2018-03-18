@@ -1,33 +1,316 @@
+/* Popup Styling */
 #popup {
-    width: 100px;
+    width: 225px;
 }
 
-/* Yellow Highlight */
-.yellow {
-    background: rgba(255, 255, 0, 0.99);
+#popup p {
+    margin: 2px;
+}
+
+#popup .colorpalette {
+    padding: 2px
+}
+
+#popup .row {
+    display: flex;
+}
+
+#popup .column {
+    flex: 50%;
+}
+
+/* Light Red */
+#popup .yaHiLi-lightRed {
+    background: rgba(253, 183, 185, 0.99);
     color: black;
 }
 
-::selection {
-    background: rgba(255, 255, 0, 0.99);
+.yakottaHighlighter.yaHiLi-lightRed ::selection {
+    background: rgba(253, 183, 185, 0.99);
     color: black;
 }
 
-::-webkit-selection {
-    background: rgba(255, 255, 0, 0.99);
+.yakottaHighlighter.yaHiLi-lightRed ::-webkit-selection {
+    background: rgba(253, 183, 185, 0.99);
     color: black;
 }
 
-img::selection {
-  background: rgba(255, 255, 0, 0.75);
-  color: white;
+.yakottaHighlighter.yaHiLi-lightRed img::selection {
+    background: rgba(253, 183, 185, 0.75);
 }
 
-/* Rainbow Text */
-.rainbow {
-    background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
-    background-image: gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+/* Light Orange */
+#popup .yaHiLi-lightOrange {
+    background: rgba(253, 219, 188, 0.99);
+    color: black;
+}
+
+.yakottaHighlighter.yaHiLi-lightOrange ::selection {
+    background: rgba(253, 219, 188, 0.99);
+    color: black;
+}
+
+.yakottaHighlighter.yaHiLi-lightOrange ::-webkit-selection {
+    background: rgba(253, 219, 188, 0.99);
+    color: black;
+}
+
+.yakottaHighlighter.yaHiLi-lightOrange img::selection {
+    background: rgba(253, 219, 188, 0.75);
+}
+
+/* Light Yellow */
+#popup .yaHiLi-lightYellow {
+    background: rgba(253, 235, 188, 0.99);
+    color: black;
+}
+
+.yakottaHighlighter.yaHiLi-lightYellow ::selection {
+    background: rgba(253, 235, 188, 0.99);
+    color: black;
+}
+
+.yakottaHighlighter.yaHiLi-lightYellow ::-webkit-selection {
+    background: rgba(253, 235, 188, 0.99);
+    color: black;
+}
+
+.yakottaHighlighter.yaHiLi-lightYellow img::selection {
+    background: rgba(253, 235, 188, 0.75);
+}
+
+/* Light Green */
+#popup .yaHiLi-lightGreen {
+    background: rgba(181, 242, 187, 0.99);
+    color: black;
+}
+
+.yakottaHighlighter.yaHiLi-lightGreen ::selection {
+    background: rgba(181, 242, 187, 0.99);
+    color: black;
+}
+
+.yakottaHighlighter.yaHiLi-lightGreen ::-webkit-selection {
+    background: rgba(181, 242, 187, 0.99);
+    color: black;
+}
+
+.yakottaHighlighter.yaHiLi-lightGreen img::selection {
+    background: rgba(181, 242, 187, 0.75);
+}
+
+/* Light Blue */
+#popup .yaHiLi-lightBlue {
+    background: rgba(172, 215, 247, 0.99);
+    color: black;
+}
+
+.yakottaHighlighter.yaHiLi-lightBlue ::selection {
+    background: rgba(172, 215, 247, 0.99);
+    color: black;
+}
+
+.yakottaHighlighter.yaHiLi-lightBlue ::-webkit-selection {
+    background: rgba(172, 215, 247, 0.99);
+    color: black;
+}
+
+.yakottaHighlighter.yaHiLi-lightBlue img::selection {
+    background: rgba(172, 215, 247, 0.75);
+}
+
+/* Light Purple */
+#popup .yaHiLi-lightPurple {
+    background: rgba(247, 210, 246, 0.99);
+    color: black;
+}
+
+.yakottaHighlighter.yaHiLi-lightPurple ::selection {
+    background: rgba(247, 210, 246, 0.99);
+    color: black;
+}
+
+.yakottaHighlighter.yaHiLi-lightPurple ::-webkit-selection {
+    background: rgba(247, 210, 246, 0.99);
+    color: black;
+}
+
+.yakottaHighlighter.yaHiLi-lightPurple img::selection {
+    background: rgba(247, 210, 246, 0.75);
+}
+
+/* Light Pink */
+#popup .yaHiLi-lightPink {
+    background: rgba(250, 201, 228, 0.99);
+    color: black;
+}
+
+.yakottaHighlighter.yaHiLi-lightPink ::selection {
+    background: rgba(250, 201, 228, 0.99);
+    color: black;
+}
+
+.yakottaHighlighter.yaHiLi-lightPink ::-webkit-selection {
+    background: rgba(250, 201, 228, 0.99);
+    color: black;
+}
+
+.yakottaHighlighter.yaHiLi-lightPink img::selection {
+    background: rgba(250, 201, 228, 0.75);
+}
+
+/* Dark Red */
+#popup .yaHiLi-darkRed {
+    background: rgba(255, 55, 56, 0.99);
+    color: white;
+}
+
+.yakottaHighlighter.yaHiLi-darkRed ::selection {
+    background: rgba(255, 55, 56, 0.99);
+    color: white;
+}
+
+.yakottaHighlighter.yaHiLi-darkRed ::-webkit-selection {
+    background: rgba(255, 55, 56, 0.99);
+    color: white;
+}
+
+.yakottaHighlighter.yaHiLi-darkRed img::selection {
+    background: rgba(255, 55, 56, 0.75);
+}
+
+/* Dark Orange */
+#popup .yaHiLi-darkOrange {
+    background: rgba(255, 147, 52, 0.99);
+    color: white;
+}
+
+.yakottaHighlighter.yaHiLi-darkOrange ::selection {
+    background: rgba(255, 147, 52, 0.99);
+    color: white;
+}
+
+.yakottaHighlighter.yaHiLi-darkOrange ::-webkit-selection {
+    background: rgba(255, 147, 52, 0.99);
+    color: white;
+}
+
+.yakottaHighlighter.yaHiLi-darkOrange img::selection {
+    background: rgba(255, 147, 52, 0.75);
+}
+
+/* Dark Yellow */
+#popup .yaHiLi-darkYellow {
+    background: rgba(255, 202, 69, 0.99);
+    color: white;
+}
+
+.yakottaHighlighter.yaHiLi-darkYellow ::selection {
+    background: rgba(255, 202, 69, 0.99);
+    color: white;
+}
+
+.yakottaHighlighter.yaHiLi-darkYellow ::-webkit-selection {
+    background: rgba(255, 202, 69, 0.99);
+    color: white;
+}
+
+.yakottaHighlighter.yaHiLi-darkYellow img::selection {
+    background: rgba(255, 202, 69, 0.75);
+}
+
+/* Dark Green */
+#popup .yaHiLi-darkGreen {
+    background: rgba(87, 217, 87, 0.99);
+    color: white;
+}
+
+.yakottaHighlighter.yaHiLi-darkGreen ::selection {
+    background: rgba(87, 217, 87, 0.99);
+    color: white;
+}
+
+.yakottaHighlighter.yaHiLi-darkGreen ::-webkit-selection {
+    background: rgba(87, 217, 87, 0.99);
+    color: white;
+}
+
+.yakottaHighlighter.yaHiLi-darkGreen img::selection {
+    background: rgba(87, 217, 87, 0.75);
+}
+
+/* Dark Blue */
+#popup .yaHiLi-darkBlue {
+    background: rgba(0, 108, 210, 0.99);
+    color: white;
+}
+
+.yakottaHighlighter.yaHiLi-darkBlue ::selection {
+    background: rgba(0, 108, 210, 0.99);
+    color: white;
+}
+
+.yakottaHighlighter.yaHiLi-darkBlue ::-webkit-selection {
+    background: rgba(0, 108, 210, 0.99);
+    color: white;
+}
+
+.yakottaHighlighter.yaHiLi-darkBlue img::selection {
+    background: rgba(0, 108, 210, 0.75);
+}
+
+/* Dark Purple */
+#popup .yaHiLi-darkPurple {
+    background: rgba(207, 117, 218, 0.99);
+    color: white;
+}
+
+.yakottaHighlighter.yaHiLi-darkPurple ::selection {
+    background: rgba(207, 117, 218, 0.99);
+    color: white;
+}
+
+.yakottaHighlighter.yaHiLi-darkPurple ::-webkit-selection {
+    background: rgba(207, 117, 218, 0.99);
+    color: white;
+}
+
+.yakottaHighlighter.yaHiLi-darkPurple img::selection {
+    background: rgba(207, 117, 218, 0.75);
+}
+
+/* Dark Pink */
+#popup .yaHiLi-darkPink {
+    background: rgba(255, 37, 103, 0.99);
+    color: white;
+}
+
+.yakottaHighlighter.yaHiLi-darkPink ::selection {
+    background: rgba(255, 37, 103, 0.99);
+    color: white;
+}
+
+.yakottaHighlighter.yaHiLi-darkPink ::-webkit-selection {
+    background: rgba(255, 37, 103, 0.99);
+    color: white;
+}
+
+.yakottaHighlighter.yaHiLi-darkPink img::selection {
+    background: rgba(255, 37, 103, 0.75);
+}
+
+/* Rainbow */
+.yaHiLi-rainbow {
+    background-image: -webkit-gradient( linear, left top, right top,
+        color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f),
+        color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2),
+        color-stop(0.9, #ff2), color-stop(1, #f22) );
+    background-image: gradient( linear, left top, right top,
+        color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f),
+        color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2),
+        color-stop(0.9, #ff2), color-stop(1, #f22) );
     color: transparent;
     -webkit-background-clip: text;
     background-clip: text;
+    font-weight: bold;
 }
