@@ -4,14 +4,22 @@
   "name": "Highlighter",
   "version": "1.0",
   "description": "Changes the way highlighted text appears.",
+  "author": "Jenna Pinkham",
 
   "browser_action": {
-    "default_icon": "icon-19x19.png",
+    "default_icon": "icons/19x19.png",
+    "default_title": "Highlighter",
     "default_popup": "popup.html"
   },
 
   "content_scripts": [{
     "matches": ["<all_urls>"],
     "css": ["styles.css"]
-  }]
+  }],
+
+  "icons": { 
+    "16": "icons/16x16.png",
+    "48": "icons/48x48.png",
+    "128": "icons/128x128.png"
+  }
 }
