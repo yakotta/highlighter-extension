@@ -1,0 +1,14 @@
+#popup {
+    width: 100px;
+}
+
+/* Yellow Highlight */
+.yellow {
+    background-color: yellow;
+    color: black;
+}
+
+/* Invert Highlight */
+.invert {
+	filter: invert(100%);
+}
