@@ -5,11 +5,7 @@
     </head>
     <body>
         <form id="popup">
-            <div class="row">
-                <p>
-                    Select your highlighter color:
-                </p>
-            </div>
+            <p>Select your highlighter color:</p>
             <div class="row">
                 <div class="column">
                     <p>
@@ -39,6 +35,12 @@
                     <p>
                         <input type="radio" id="yaHiLi-lightPink" name="highlight" value="yaHiLi-lightPink" />
                         <label for="yaHiLi-lightPink"><span class="yaHiLi-lightPink colorpalette">Light Pink</span></label>
+                    </p>
+                    <p>
+                        <input type="radio" id="yaHiLi-rainbow" name="highlight" value="yaHiLi-rainbow" />
+                        <label for="yaHiLi-rainbow">
+                            <span class="yaHiLi-rainbow">Rainbow text</span>
+                        </label>
                     </p>
                 </div>
                 <div class="column">
@@ -72,18 +74,10 @@
                     </p>
                 </div>
             </div>
-            <div class="row">
-                <p>
-                    <input type="radio" id="yaHiLi-rainbow" name="highlight" value="yaHiLi-rainbow" />
-                    <label for="yaHiLi-rainbow">
-                        <span class="yaHiLi-rainbow">Rainbow text</span>
-                    </label>
-                </p>
-            </div>
             <div class="button">
                 <button id="colorSelectButton">Use Color</button>
             </div>
         </form>
-        <script type="text/javascript" src="content_script.js"></script>
+        <script type="text/javascript" src="popup_script.js"></script>
     </body>
 </html>
