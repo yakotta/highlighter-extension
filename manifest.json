@@ -14,11 +14,10 @@
 
   "content_scripts": [{
     "matches": ["<all_urls>"],
-    "css": ["styles.css"],
-    "js": ["content_script.js"]
+    "css": ["styles.css"]
   }],
 
-  "permissions": ["tabs", "<all_urls>"],
+  "permissions": ["tabs", "<all_urls>", "storage"],
 
   "icons": { 
     "16": "icons/16x16.png",
