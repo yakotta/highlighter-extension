@@ -19,8 +19,13 @@
     flex: 50%;
 }
 
+#popup .button {
+    text-align: center;
+}
+
 /* Light Red */
-#popup .yaHiLi-lightRed {
+#popup .yaHiLi-lightRed,
+span.yaHiLi-lightRed {
     background: rgba(253, 183, 185, 0.99);
     color: black;
 }
@@ -40,7 +45,8 @@
 }
 
 /* Light Orange */
-#popup .yaHiLi-lightOrange {
+#popup .yaHiLi-lightOrange,
+span.yaHiLi-lightOrange {
     background: rgba(253, 219, 188, 0.99);
     color: black;
 }
@@ -60,7 +66,8 @@
 }
 
 /* Light Yellow */
-#popup .yaHiLi-lightYellow {
+#popup .yaHiLi-lightYellow,
+span.yaHiLi-lightYellow {
     background: rgba(253, 235, 188, 0.99);
     color: black;
 }
@@ -80,7 +87,8 @@
 }
 
 /* Light Green */
-#popup .yaHiLi-lightGreen {
+#popup .yaHiLi-lightGreen,
+span.yaHiLi-lightGreen {
     background: rgba(181, 242, 187, 0.99);
     color: black;
 }
@@ -100,7 +108,8 @@
 }
 
 /* Light Blue */
-#popup .yaHiLi-lightBlue {
+#popup .yaHiLi-lightBlue,
+span.yaHiLi-lightBlue {
     background: rgba(172, 215, 247, 0.99);
     color: black;
 }
@@ -120,7 +129,8 @@
 }
 
 /* Light Purple */
-#popup .yaHiLi-lightPurple {
+#popup .yaHiLi-lightPurple,
+span.yaHiLi-lightPurple {
     background: rgba(247, 210, 246, 0.99);
     color: black;
 }
@@ -140,7 +150,8 @@
 }
 
 /* Light Pink */
-#popup .yaHiLi-lightPink {
+#popup .yaHiLi-lightPink,
+span.yaHiLi-lightPink {
     background: rgba(250, 201, 228, 0.99);
     color: black;
 }
@@ -160,7 +171,8 @@
 }
 
 /* Dark Red */
-#popup .yaHiLi-darkRed {
+#popup .yaHiLi-darkRed,
+span.yaHiLi-darkRed {
     background: rgba(255, 55, 56, 0.99);
     color: white;
 }
@@ -180,7 +192,8 @@
 }
 
 /* Dark Orange */
-#popup .yaHiLi-darkOrange {
+#popup .yaHiLi-darkOrange,
+span.yaHiLi-darkOrange {
     background: rgba(255, 147, 52, 0.99);
     color: white;
 }
@@ -200,7 +213,8 @@
 }
 
 /* Dark Yellow */
-#popup .yaHiLi-darkYellow {
+#popup .yaHiLi-darkYellow,
+span.yaHiLi-darkYellow {
     background: rgba(255, 202, 69, 0.99);
     color: white;
 }
@@ -220,7 +234,8 @@
 }
 
 /* Dark Green */
-#popup .yaHiLi-darkGreen {
+#popup .yaHiLi-darkGreen,
+span.yaHiLi-darkGreen {
     background: rgba(87, 217, 87, 0.99);
     color: white;
 }
@@ -240,7 +255,8 @@
 }
 
 /* Dark Blue */
-#popup .yaHiLi-darkBlue {
+#popup .yaHiLi-darkBlue,
+span.yaHiLi-darkBlue {
     background: rgba(0, 108, 210, 0.99);
     color: white;
 }
@@ -260,7 +276,8 @@
 }
 
 /* Dark Purple */
-#popup .yaHiLi-darkPurple {
+#popup .yaHiLi-darkPurple,
+span.yaHiLi-darkPurple {
     background: rgba(207, 117, 218, 0.99);
     color: white;
 }
@@ -280,7 +297,8 @@
 }
 
 /* Dark Pink */
-#popup .yaHiLi-darkPink {
+#popup .yaHiLi-darkPink,
+span.yaHiLi-darkPink {
     background: rgba(255, 37, 103, 0.99);
     color: white;
 }
@@ -300,7 +318,8 @@
 }
 
 /* Rainbow */
-.yaHiLi-rainbow {
+#popup .yaHiLi-rainbow,
+span.yaHiLi-rainbow {
     background-image: -webkit-gradient( linear, left top, right top,
         color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f),
         color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2),
