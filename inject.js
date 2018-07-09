@@ -1,3 +1,9 @@
+// Adds .yakottaHighlighter to <body> tag if not already present
+var bodyElement = document.getElementsByTagName("body")[0];
+if(!bodyElement.classList.contains('yakottaHighlighter')){
+    bodyElement.classList.add('yakottaHighlighter');
+}
+
 // Determines the selected text
 document.onmouseup = function() {
     var selection = document.getSelection();

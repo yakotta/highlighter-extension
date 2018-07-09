@@ -1,7 +1,3 @@
-// Adds .yakottaHighlighter to <body> tag
-var bodyElement = document.getElementsByTagName("body")[0];
-bodyElement.classList.add('yakottaHighlighter');
-
 // Adds an event listener to the extension's popup
 document.getElementById("colorSelectButton").addEventListener("click", function(){
     var color;
