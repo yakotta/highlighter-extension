@@ -21,7 +21,7 @@
                         <label for="yaHiLi-lightOrange"><span class="yaHiLi-lightOrange colorpalette">Light Orange</span></label>
                     </p>
                     <p>
-                        <input type="radio" id="yaHiLi-lightYellow" name="highlight" value="yaHiLi-lightYellow" checked />
+                        <input type="radio" id="yaHiLi-lightYellow" name="highlight" value="yaHiLi-lightYellow" />
                         <label for="yaHiLi-lightYellow"><span class="yaHiLi-lightYellow colorpalette">Light Yellow</span></label>
                     </p>
                     <p>
@@ -73,15 +73,17 @@
                 </div>
             </div>
             <div class="row">
-
                 <p>
-                    <input type="radio" id="yaHiLi-rainbow" name="highlight" value="yaHiLi-rainbow" disabled=true />
+                    <input type="radio" id="yaHiLi-rainbow" name="highlight" value="yaHiLi-rainbow" />
                     <label for="yaHiLi-rainbow">
                         <span class="yaHiLi-rainbow">Rainbow text</span>
-                        <span>(coming soon)</span>
                     </label>
                 </p>
             </div>
+            <div class="button">
+                <button id="colorSelectButton">Use Color</button>
+            </div>
         </form>
+        <script type="text/javascript" src="content_script.js"></script>
     </body>
 </html>
