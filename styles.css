@@ -30,11 +30,7 @@ span.yaHiLi-lightRed {
     color: black;
 }
 
-.yakottaHighlighter.yaHiLi-lightRed ::selection {
-    background: rgba(253, 183, 185, 0.99);
-    color: black;
-}
-
+.yakottaHighlighter.yaHiLi-lightRed ::selection, 
 .yakottaHighlighter.yaHiLi-lightRed ::-webkit-selection {
     background: rgba(253, 183, 185, 0.99);
     color: black;
@@ -51,11 +47,7 @@ span.yaHiLi-lightOrange {
     color: black;
 }
 
-.yakottaHighlighter.yaHiLi-lightOrange ::selection {
-    background: rgba(253, 219, 188, 0.99);
-    color: black;
-}
-
+.yakottaHighlighter.yaHiLi-lightOrange ::selection,
 .yakottaHighlighter.yaHiLi-lightOrange ::-webkit-selection {
     background: rgba(253, 219, 188, 0.99);
     color: black;
@@ -72,11 +64,7 @@ span.yaHiLi-lightYellow {
     color: black;
 }
 
-.yakottaHighlighter.yaHiLi-lightYellow ::selection {
-    background: rgba(253, 235, 188, 0.99);
-    color: black;
-}
-
+.yakottaHighlighter.yaHiLi-lightYellow ::selection,
 .yakottaHighlighter.yaHiLi-lightYellow ::-webkit-selection {
     background: rgba(253, 235, 188, 0.99);
     color: black;
@@ -93,11 +81,7 @@ span.yaHiLi-lightGreen {
     color: black;
 }
 
-.yakottaHighlighter.yaHiLi-lightGreen ::selection {
-    background: rgba(181, 242, 187, 0.99);
-    color: black;
-}
-
+.yakottaHighlighter.yaHiLi-lightGreen ::selection,
 .yakottaHighlighter.yaHiLi-lightGreen ::-webkit-selection {
     background: rgba(181, 242, 187, 0.99);
     color: black;
@@ -114,11 +98,7 @@ span.yaHiLi-lightBlue {
     color: black;
 }
 
-.yakottaHighlighter.yaHiLi-lightBlue ::selection {
-    background: rgba(172, 215, 247, 0.99);
-    color: black;
-}
-
+.yakottaHighlighter.yaHiLi-lightBlue ::selection,
 .yakottaHighlighter.yaHiLi-lightBlue ::-webkit-selection {
     background: rgba(172, 215, 247, 0.99);
     color: black;
@@ -135,11 +115,7 @@ span.yaHiLi-lightPurple {
     color: black;
 }
 
-.yakottaHighlighter.yaHiLi-lightPurple ::selection {
-    background: rgba(247, 210, 246, 0.99);
-    color: black;
-}
-
+.yakottaHighlighter.yaHiLi-lightPurple ::selection,
 .yakottaHighlighter.yaHiLi-lightPurple ::-webkit-selection {
     background: rgba(247, 210, 246, 0.99);
     color: black;
@@ -156,11 +132,7 @@ span.yaHiLi-lightPink {
     color: black;
 }
 
-.yakottaHighlighter.yaHiLi-lightPink ::selection {
-    background: rgba(250, 201, 228, 0.99);
-    color: black;
-}
-
+.yakottaHighlighter.yaHiLi-lightPink ::selection,
 .yakottaHighlighter.yaHiLi-lightPink ::-webkit-selection {
     background: rgba(250, 201, 228, 0.99);
     color: black;
@@ -177,11 +149,7 @@ span.yaHiLi-darkRed {
     color: white;
 }
 
-.yakottaHighlighter.yaHiLi-darkRed ::selection {
-    background: rgba(255, 55, 56, 0.99);
-    color: white;
-}
-
+.yakottaHighlighter.yaHiLi-darkRed ::selection,
 .yakottaHighlighter.yaHiLi-darkRed ::-webkit-selection {
     background: rgba(255, 55, 56, 0.99);
     color: white;
@@ -198,11 +166,7 @@ span.yaHiLi-darkOrange {
     color: white;
 }
 
-.yakottaHighlighter.yaHiLi-darkOrange ::selection {
-    background: rgba(255, 147, 52, 0.99);
-    color: white;
-}
-
+.yakottaHighlighter.yaHiLi-darkOrange ::selection,
 .yakottaHighlighter.yaHiLi-darkOrange ::-webkit-selection {
     background: rgba(255, 147, 52, 0.99);
     color: white;
@@ -219,11 +183,7 @@ span.yaHiLi-darkYellow {
     color: white;
 }
 
-.yakottaHighlighter.yaHiLi-darkYellow ::selection {
-    background: rgba(255, 202, 69, 0.99);
-    color: white;
-}
-
+.yakottaHighlighter.yaHiLi-darkYellow ::selection,
 .yakottaHighlighter.yaHiLi-darkYellow ::-webkit-selection {
     background: rgba(255, 202, 69, 0.99);
     color: white;
@@ -240,11 +200,7 @@ span.yaHiLi-darkGreen {
     color: white;
 }
 
-.yakottaHighlighter.yaHiLi-darkGreen ::selection {
-    background: rgba(87, 217, 87, 0.99);
-    color: white;
-}
-
+.yakottaHighlighter.yaHiLi-darkGreen ::selection,
 .yakottaHighlighter.yaHiLi-darkGreen ::-webkit-selection {
     background: rgba(87, 217, 87, 0.99);
     color: white;
@@ -261,11 +217,7 @@ span.yaHiLi-darkBlue {
     color: white;
 }
 
-.yakottaHighlighter.yaHiLi-darkBlue ::selection {
-    background: rgba(0, 108, 210, 0.99);
-    color: white;
-}
-
+.yakottaHighlighter.yaHiLi-darkBlue ::selection,
 .yakottaHighlighter.yaHiLi-darkBlue ::-webkit-selection {
     background: rgba(0, 108, 210, 0.99);
     color: white;
@@ -282,11 +234,7 @@ span.yaHiLi-darkPurple {
     color: white;
 }
 
-.yakottaHighlighter.yaHiLi-darkPurple ::selection {
-    background: rgba(207, 117, 218, 0.99);
-    color: white;
-}
-
+.yakottaHighlighter.yaHiLi-darkPurple ::selection,
 .yakottaHighlighter.yaHiLi-darkPurple ::-webkit-selection {
     background: rgba(207, 117, 218, 0.99);
     color: white;
@@ -303,11 +251,7 @@ span.yaHiLi-darkPink {
     color: white;
 }
 
-.yakottaHighlighter.yaHiLi-darkPink ::selection {
-    background: rgba(255, 37, 103, 0.99);
-    color: white;
-}
-
+.yakottaHighlighter.yaHiLi-darkPink ::selection,
 .yakottaHighlighter.yaHiLi-darkPink ::-webkit-selection {
     background: rgba(255, 37, 103, 0.99);
     color: white;
