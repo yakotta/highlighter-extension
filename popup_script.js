@@ -10,6 +10,9 @@ document.getElementById("colorSelectButton").addEventListener("click", function(
         }
     }
 
+    // Saves the color's name in local storage
+    chrome.storage.sync.set({'radioChecked': color});
+
     // Puts the color name in quotes so it can be used in chrome.tabs.executeScript
     color = '"' + color + '"'
 
@@ -21,4 +24,9 @@ document.getElementById("colorSelectButton").addEventListener("click", function(
             file: 'injection_script.js'
         })
     });
+});
+
+// Keeps the radio buttons persistently checked using the local storage data 
+chrome.storage.sync.get(['radioChecked'], function(result) {
+    document.getElementById(result.radioChecked).setAttribute("checked", "checked");
 });
