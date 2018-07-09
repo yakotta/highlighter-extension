@@ -2,7 +2,7 @@
   "manifest_version": 2,
 
   "name": "Highlighter",
-  "version": "1.0",
+  "version": "1.2",
   "description": "Changes the way highlighted text appears.",
   "author": "Jenna Pinkham",
 
@@ -14,8 +14,11 @@
 
   "content_scripts": [{
     "matches": ["<all_urls>"],
-    "css": ["styles.css"]
+    "css": ["styles.css"],
+    "js": ["content_script.js"]
   }],
+
+  "permissions": ["tabs", "<all_urls>"],
 
   "icons": { 
     "16": "icons/16x16.png",
