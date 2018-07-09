@@ -1,14 +1,14 @@
 {
   "manifest_version": 2,
 
-  "name": "Highlighter",
-  "version": "1.2",
+"name": "Rainbow Highlighter",
+  "version": "2.0",
   "description": "Changes the way highlighted text appears.",
   "author": "Jenna Pinkham",
 
   "browser_action": {
     "default_icon": "icons/19x19.png",
-    "default_title": "Highlighter",
+    "default_title": "Rainbow Highlighter",
     "default_popup": "popup.html"
   },
 
