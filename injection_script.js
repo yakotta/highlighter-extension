@@ -28,9 +28,11 @@ function getSelectedText(inputColor) {
         var selection = document.getSelection();
         if(selection.rangeCount) {
             var range = selection.getRangeAt(0).cloneRange();
-            range.surroundContents(span);
-            selection.removeAllRanges();
-            selection.addRange(range);
+            setTimeout(function(){
+                range.surroundContents(span);
+                selection.removeAllRanges();
+                selection.addRange(range);
+            }, 100)
         }
     }
 }
